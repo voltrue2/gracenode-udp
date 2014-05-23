@@ -20,7 +20,6 @@ To use this module in your application, add the following to your gracenode boot
 ```
 var gracenode = require('gracenode');
 // this tells gracenode to load the module
-// make sure you load gracenode-mysql module BEFORE gracenode-iap module
 gracenode.use('gracenode-udp');
 ```
 
